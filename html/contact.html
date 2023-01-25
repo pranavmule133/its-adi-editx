@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact page</title>
+  <!--Font Awesome 4.7 link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Google icons-->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: times new roman;
+  }
+
+  .auto {
+    margin: 0 2vw;
+  }
+
+  .auto h1 {
+    text-align: center;
+    font-size: 2.5vw;
+    padding: 2vw;
+  }
+
+  .main {
+    display: flex;
+    border-radius: 8vw;
+    background-color: rgb(0, 0, 0, .25);
+    background-blend-mode: overlay;
+    width: 60%;
+    text-align: center;
+    padding: 2.5vw 2vw;
+    margin: auto;
+  }
+
+  #mi {
+    padding: 1vw;
+    border-radius: 8vw;
+    border: .25vw black solid;
+    font-size: 2.5vw;
+  }
+
+  #mi:hover {
+    color: white;
+    background-color: black;
+  }
+
+  .left {
+    padding: 0 1vw;
+    margin: 0 1vw;
+  }
+
+  .left .lefty {
+    display: flex;
+    align-items: center;
+    margin: 2vw 0;
+  }
+
+  .span-2 {
+    margin: 0 1vw;
+  }
+
+  #span-3 {
+    font-size: 1.5vw;
+  }
+
+  #span-4 {
+    font-size: 1.5vw;
+  }
+
+  .right {
+    padding: 0;
+  }
+
+  .right input {
+    width: 20vw;
+    padding: 1.5vw;
+    margin: 1.5vw 0;
+    border: .2vw solid #fff;
+    border-radius: 3vw;
+  }
+
+  .right .input {
+    height: 1vw;
+  }
+
+  .right #btn {
+    color: #fff;
+    width: 20vw;
+    padding: 1vw;
+    text-align: center;
+    background-color: #D39AE7;
+  }
+
+  .right #btn:hover {
+    background-color: #FF00AD;
+    border: solid .2vw #77FFD1;
+  }
+
+  /* footer start here */
+  .footer {
+    padding: 3vw 0 0 0;
+    text-align: center;
+  }
+  .footer h1{
+  font-size: 4vw;
+  font-family: 'Martel', serif;
+  margin-top: 3vw;
+  letter-spacing: 1vw;
+}
+
+  .footer .icons {
+    padding: 3vw;
+  }
+
+  .footer .icons a {
+    color: #000;
+    margin: 0 2vw 4vw 2vw;
+    padding: 1vw;
+    border-radius: 100%;
+    border: .25vw black solid;
+    font-size: 2.5vw;
+  }
+
+  .footer .icons a {
+    padding: 1vw;
+    border-radius: 8vw;
+    border: .5vw black solid;
+  }
+
+  .footer .icons a:hover {
+    color: white;
+    background-color: black;
+  }
+
+
+  .footer .copy {
+    bottom: 0;
+  }
+
+  .footer .copy p {
+    font-size: 1.5vw;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  @media all and (max-width:500px) {
+    .main {
+      width: 80%;
+    }
+  }
+
+  /* footer end here */
+</style>
+
+<body>
+  <div class="auto">
+    <h1>Contact</h1>
+    <p></p>
+    <div class="main">
+      <div class="left">
+        <div class="left-1 lefty">
+          <div class="span-1">
+            <span class="material-icons" id="mi">
+              location_on
+            </span></div>
+          <div class="span-2">
+            <span id="span-3">Address</span><br>
+            <span id="span-4">Pune, Maharashtra</span>
+          </div>
+        </div>
+        <div class="left-2 lefty">
+          <div class="span-1">
+            <span class="material-icons" id="mi">
+              phone</span>
+          </div>
+          <div class="span-2">
+            <span id="span-3">Phone</span><br>
+            <span id="span-4">+91 9112292404</span>
+          </div>
+        </div>
+        <div class="left-3 lefty">
+          <div class="span-1">
+            <span class="material-icons" id="mi"> email
+            </span>
+          </div>
+          <div class="span-2">
+            <span id="span-3">E-mail</span>
+            <br>
+            <span id="span-4">sachinmule615@gmail.com</span>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <input type="text" placeholder="Full name" class="input">
+        <br>
+        <input type="email" placeholder="E-mail" class="input">
+        <br>
+        <input type="text-area" placeholder="Comment" class="input">
+        <br>
+        <input id="btn" type="submit" value="Send">
+      </div>
+    </div>
+  </div>
+  <!-- footer start -->
+  <footer>
+    <div class="footer">
+      <h1>its_aadya_style</h1>
+      <div class="icons">
+        <a href="https://www.instagram.com/its_aadya_style/"><i class="fa fa-instagram"></i></a>
+        <a href="https://youtube.com/channel/UC2E6z0QmAcbnC5f2qvoWjFg"><i class="fa fa-youtube"></i></a>
+      </div>
+      <div class="copy">
+        <p>copyright &copy; Creating and Designing by SachinMuleSuccess</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About us page</title>
+  
+  <!--Font Awesome 4.7 link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Asar&family=Kaushan+Script&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .background {
+      background-image: url("/images/profile-bg.jpeg");
+      background-position: center;
+      background-size: cover;
+      background-color: rgb(0, 0, 0, .4);
+      background-blend-mode: overlay;
+      color: white;
+      font-weight: bold;
+      font-family: 'Kaushan Script', cursive;
+    }
+
+    .container {
+      text-align: center;
+      padding: 1vw 0;
+    }
+
+    .head {
+      padding: .5vw 0;
+      text-align: center;
+    }
+
+
+    .container .head h1 {
+      font-size: 3.5vw;
+
+    }
+
+    .container .head h3 {
+      font-size: 2.5vw;
+    }
+
+    .container .photo img {
+      margin-top: 3vw;
+      height: 15vw;
+      width: 15vw;
+      border: solid .3vw #ffe066;
+      border-radius: 20vw;
+    }
+
+    .container .information {
+      padding-top: 3vw;
+      width: 75%;
+      margin: auto;
+      text-indent: 20%;
+      text-align: justify;
+      text-transform: capitalize;
+      font-size: 2vw;
+    }
+
+    .container .information a {
+      color: white;
+
+    }
+
+    /* footer start here */
+    .footer {
+      padding: 3vw 0 0 0;
+      text-align: center;
+    }
+
+    .footer h1 {
+      font-size: 4vw;
+      font-family: 'Martel', serif;
+      margin-top: 3vw;
+      letter-spacing: 1vw;
+      color: white;
+    }
+
+    .footer .icons {
+      padding: 3vw;
+    }
+
+    .footer .icons a {
+      margin: 0 2vw 4vw 2vw;
+      padding: 1vw;
+      border-radius: 100%;
+      font-size: 2.5vw;
+      color: white;
+      border: .5vw white solid;
+    }
+
+    .footer .icons a:hover {
+      color: black;
+      background-color: white;
+    }
+
+
+    .footer .copy {
+      bottom: 0;
+    }
+
+    .footer .copy p {
+      font-size: 1.5vw;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    @media all and (max-width:500px) {
+      .main {
+        width: 80%;
+      }
+
+      .container .photo img {
+        margin: 5vw 0 2vw 0;
+        height: 40vw;
+        width: 40vw;
+      }
+
+      .container .head h1 {
+        font-size: 10vw;
+      }
+
+      .container .head h3 {
+        font-size: 6vw;
+      }
+
+      .container .information {
+        width: 50%;
+        font-size: 4vw;
+        padding: 5vw 0 3vw 0;
+      }
+
+      .footer h1 {
+        font-size: 6vw;
+        margin-top: 7vw;
+      }
+
+      .footer .icons {
+        margin: 3vw 2vw;
+      }
+
+      .footer .icons a {
+        font-size: 4vw;
+        padding: 2.5vw;
+
+      }
+
+      .footer .copy p {
+        font-size: 3vw;
+      }
+    }
+
+    /* footer end here */
+  </style>
+</head>
+
+<body>
+  <div class="background">
+    <div class="container">
+      <div class="head">
+        <h1>Aditya Mule</h1>
+        <h3>Video Editor</h3>
+      </div>
+      <div class="photo">
+        <img src="/images/profile-img.jpg"></div>
+      <div class="information">My name is Aditya Ashok Mule and I am a Video Editor. Daily I upload & post a new awesome videos in Instagram and Youtube (you can check below links). I am from Shirur,Pune. Thanks.</div>
+    </div>
+    <!-- footer start -->
+    <footer>
+      <div class="footer">
+        <h1>its_aadya_style</h1>
+        <div class="icons">
+          <a href="https://www.instagram.com/its_aadya_style/"><i class="fa fa-instagram"></i></a>
+          <a href="https://youtube.com/channel/UC2E6z0QmAcbnC5f2qvoWjFg"><i class="fa fa-youtube"></i></a>
+        </div>
+        <div class="copy">
+          <p>copyright &copy; Creating and Designing by SachinMuleSuccess</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

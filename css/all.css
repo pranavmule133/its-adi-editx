@@ -1,0 +1,155 @@
+
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			background-color: rgba(0, 0, 0, 1);
+		}
+
+		/* video body start here */
+		.container span {
+			font-weight: 1000;
+			font-size: 4vw;
+			text-transform: capitalize;
+			font-family: 'Kaushan Script', cursive;
+		}
+
+		.container .no-typed {
+			color: white;
+		}
+
+		.container .typed {
+			color: #F2B9B9;
+		}
+
+		.container .flex {
+			font-variant: small-caps;
+			margin-top: 5vw;
+		}
+
+		.container .heading h1 {
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 5vw;
+			color: #fff;
+			text-align: center;
+			padding: 1vw 0;
+			text-decoration: underline;
+	
+		}
+
+		.container .heading .flexxx {
+			display: flex;
+			justify-content: space-around;
+		}
+
+		.container .body .image {
+			width: 90%;
+			height: 30vw;
+			position: relative;
+
+		}
+
+		.body .image img {
+			width: 25vw;
+			height: 30vw;
+			outline: .3vw solid #fff;
+		}
+
+		.body .image .content {
+			position: absolute;
+			width: 25vw;
+			height: 30vw;
+			background-color: rgba(0, 0, 0, .8);
+			top: 0;
+			opacity: 0;
+			margin: auto;
+
+		}
+
+		.body .image .content p {
+			text-align: left;
+			margin: auto;
+			width: 60%;
+			font-size: 2vw;
+			color: red;
+			font-family: 'Yatra One', cursive;
+		}
+
+		.body .image .content p a {
+			font-size: 2vw;
+			color: red;
+			display: flex;
+			width: 50%;
+			align-items: center;
+			justify-content: center;
+			border: .2vw solid red;
+			padding: 1vw 2vw;
+			text-decoration: underline;
+		}
+
+		.body .image .content p a:hover {
+			color: black;
+			background-color: rgba(255, 255, 255, .75);
+			transition: ease-in-out 1s;
+			border: .2vw solid white;
+		}
+
+		.body .image .content:hover {
+			opacity: 1;
+			transition: 1s ease-in-out;
+		}
+
+		.body .image .content>* {
+			transform: translateY(0);
+		}
+
+		.body .image .content:hover>* {
+			transform: translateY(5vw);
+			transition: transform 2s;
+		}
+
+		.container .heading .more a {
+			font-size: 2.5vw;
+			color: white;
+			font-family: 'Courier New', Courier, monospace;
+		}
+
+		/* video body end here */
+
+		@media all and (max-width:500px) {
+
+			/* video body start here */
+			.flexxx {
+				flex-direction: column;
+			}
+
+			.container .heading h1 {
+				font-size: 5vw;
+        margin:2vw 0;
+			}
+			.container .flex {
+				margin-top: 5vw;
+			}
+
+			.container .body .image {
+				height: 100vw;
+				width: 80vw;
+				margin: auto;
+			}
+			.container .body .image img {
+				height: 100vw;
+				width: 80vw;
+			}
+			.container .body .image .content {
+				height: 100vw;
+				width: 80vw;
+			}
+			.container .body .image .content p {
+				font-size: 6vw;
+			}
+			.container .more {
+				margin-right: 8vw;
+			}
+		}

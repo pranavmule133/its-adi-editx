@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services page</title>
+  <!--Font Awesome 4.7 link 1-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Font Awesome 4.7 link 2
+      <script src="https://kit.fontawesome.com/cb55b1dd86.js" crossorigin="anonymous"></script> -->
+  <!--Font Awesome 4.7 link 3 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <!--Google fonts-->
+ <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .services {
+      background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .9)), url('/images/service-bg.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      color: white;
+      font-family: 'Libre Baskerville', serif;
+      background-size: cover;
+      padding: 0 0 3vw 0;
+    }
+
+    .services .head h1 {
+      padding: 1.5vw 0 2vw 0;
+      font-size: 5vw;
+      color: goldenrod;
+      -webkit-text-stroke: .09vw white;
+    }
+
+    .services .both h3 {
+      font-size: 3.5vw;
+      margin: 1vw 0 3vw 0;
+      letter-spacing: 1vw;
+      color: transparent;
+      font-weight: 1000;
+      animation: h3 3s infinite;
+    }
+       @keyframes h3 {
+      0%,30%{
+        color: transparent;
+        -webkit-text-stroke: .1vw white;
+      }
+      100%{
+        color: white;
+        letter-spacing: 3vw;
+        -webkit-text-stroke: .1vw red;
+      }
+    }
+
+    .services .content p {
+      font-size: 2vw;
+      width:60%;
+      margin: 5vw auto 1vw auto;
+    }
+
+    .services .icon {
+      border:.2vw solid white;
+      width: 10vw;
+      height: 10vw;
+      margin: auto;
+      transform: rotate(45deg);
+    }
+    .services .icon:hover{
+      background-color: #BDF8FF;
+      transform: rotate(405deg);
+      transition: 1s all;
+      color: #FF7A7A;
+    }
+    .services .icon i{
+      font-size: 3vw;
+      transform: rotate(-45deg);
+      line-height: 9vw;
+    }
+    @media all and (max-width:500px){
+      .services{
+        height: 100vh;
+        width: 100%;
+        background-size: 100% 100vh;
+      }
+      .services .head h1{
+        font-size: 8vw;
+        padding-top: 10vw;
+      }
+      .services h3{
+        font-size: 5vw;
+        padding: 10vw 0 10vw 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="services">
+    <div class="head">
+      <h1>Services</h1>
+    </div>
+    <div class="both">
+      <h3>Video Editing</h3>
+      <div class="icon">
+        <i class="fa fa-edit"></i>
+      </div>
+      <div class="content">
+        <p>Welcome to its_adi_editx official website. We are glad to show you our editing of whatapp status / instagram stories. Watch it and also share. Paid promotion is available on 50 rupees per video. Contact us / whatsapp 7387457702. Thank You.</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
